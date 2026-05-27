@@ -1,2 +1,6 @@
 # Python virtual environment
 .venv/
+
+# Optional Python ignores
+__pycache__/
+*.pyc
