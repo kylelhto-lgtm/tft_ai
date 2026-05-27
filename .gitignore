@@ -4,6 +4,9 @@
 # Generated images from finding hexes
 finding_hexes/generated_images/*
 
+# Generated boards
+generated_boards/*
+
 # Optional Python ignores
 __pycache__/
 *.pyc
