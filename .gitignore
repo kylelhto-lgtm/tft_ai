@@ -7,6 +7,11 @@ finding_hexes/generated_images/*
 # Generated boards
 generated_boards/*
 
+# Yolo dataset
+yolo_dataset/*
+
+runs/*
+
 # Optional Python ignores
 __pycache__/
 *.pyc
