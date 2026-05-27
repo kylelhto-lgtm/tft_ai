@@ -52,5 +52,5 @@ for r in range(rows):
         cx, cy = hex_center(c, r)
         draw.polygon(hex_corners(cx, cy), outline="lime", width=2)
 
-img.save("generated_images/hex_grid.png")
+img.save("generated_images/draw_all_hex.png")
 img.show()

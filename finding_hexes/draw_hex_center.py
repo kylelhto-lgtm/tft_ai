@@ -5,7 +5,7 @@ from scipy.ndimage import label
 # -------------------------
 # LOAD IMAGE (edges already highlighted)
 # -------------------------
-img = Image.open("highlighted.png").convert("RGB")
+img = Image.open("generated_images/highlight_hex_rgb.png").convert("RGB")
 arr = np.array(img)
 
 # -------------------------
@@ -64,7 +64,7 @@ for i, (cx, cy) in enumerate(centers):
 # -------------------------
 # SAVE RESULT
 # -------------------------
-img.save("generated_images/hex_centers_overlay.png")
+img.save("generated_images/draw_hex_center.png")
 img.show()
 
 # from PIL import Image

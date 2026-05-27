@@ -5,7 +5,7 @@ from scipy.ndimage import label
 # -------------------------
 # LOAD IMAGE
 # -------------------------
-img = Image.open("highlighted.png").convert("RGB")
+img = Image.open("generated_images/highlight_hex_rgb.png").convert("RGB")
 arr = np.array(img)
 
 # -------------------------

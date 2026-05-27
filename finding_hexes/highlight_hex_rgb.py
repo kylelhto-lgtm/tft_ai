@@ -33,5 +33,5 @@ output = arr.copy()
 output[mask] = [0, 255, 0]
 
 out_img = Image.fromarray(output)
-out_img.save("generated_images/hexes_highlighted.png")
+out_img.save("generated_images/highlight_hex_rgb.png")
 out_img.show()
