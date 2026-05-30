@@ -2,13 +2,13 @@
 .venv/
 
 # Generated images from finding hexes
-finding_hexes/generated_images/*
+champion_detection/finding_hexes/*
 
 # Generated boards
 generated_boards/*
 
 # Yolo dataset
-yolo_dataset/*
+champion_detection/yolo_dataset/*
 
 runs/*
 
